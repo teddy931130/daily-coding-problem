@@ -32,4 +32,3 @@ if __name__ == "__main__":
     node = Node('root', Node('left', Node('left.left')), Node('right'))
 
     assert deserialize(serialize(node)).left.left.val == 'left.left'
-    print(deserialize(serialize(node)).left.left.val == 'left.left')

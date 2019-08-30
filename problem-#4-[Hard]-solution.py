@@ -11,5 +11,3 @@ def missing_positive_int(n):
 
 numbers = list(map(int, input().split()))
 missing_positive_int(numbers)
-
-

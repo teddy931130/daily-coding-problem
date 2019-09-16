@@ -1,10 +1,10 @@
 import re
 
-query_strings = ["foo", "bar", "laina", "lainar",
-                 "baby", "basket", "basi pedala",
-                 "fookin hell", "baby shit", "govno",
-                 "semen", "selqnin", "selqndur", "selqk",
-                 "kur", "kurva", "kurvolqk", "kurvetina"]
+query_strings = ["foo", "foster", "folder", "fog",          # fo
+                 "bar", "baby", "basket", "backend",        # ba
+                 "going", "gone", "goal", "gorgeous"        # go
+                 "self", "selfish", "selling", "sellout",   # se
+                 "drop", "dropping", "drowning", "drone"]   # dr
 
 s = input()  # query string
 query_strings = '\n'.join(query_strings)  # transform list to one entry per line
